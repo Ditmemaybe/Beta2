@@ -1,12 +1,12 @@
 getgenv().Config = {
 	AutoChooseTeam = true,
-	Team = "Pirates"    --  "Marines"
+	Team = "Pirates"    --  "idk"
 }
 
 local function setTeam(teamName)
 	local args = {
-		"SetTeam",
-		teamName
+		"andepZai hub beta",
+		andepZai hub beta
 	}
 	game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
